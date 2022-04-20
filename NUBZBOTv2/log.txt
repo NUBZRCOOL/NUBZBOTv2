@@ -1,0 +1,265 @@
+INFO - Thu Apr 07, 2022 07:04:27 PM >> Extension loaded 'extensions.help'
+INFO - Thu Apr 07, 2022 07:04:27 PM >> Extension loaded 'extensions.misc'
+INFO - Thu Apr 07, 2022 07:04:27 PM >> Extension loaded 'extensions.moderation'
+INFO - Thu Apr 07, 2022 07:04:27 PM >> Bot started!
+INFO - Thu Apr 07, 2022 07:04:27 PM >> you can start 966 sessions before the next window which starts at 2022-04-08 15:03:57.721918-07:00; planning to start 1 session... 
+INFO - Thu Apr 07, 2022 07:04:27 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '1ec4811fd76f0d8b183ac45aed163044' on v8 gateway
+INFO - Thu Apr 07, 2022 07:04:28 PM >> Processing guild application commands
+INFO - Thu Apr 07, 2022 07:04:28 PM >> Processing global application commands
+INFO - Thu Apr 07, 2022 07:04:28 PM >> Application command processing completed
+INFO - Thu Apr 07, 2022 07:04:28 PM >> started successfully in approx 0.95 seconds
+INFO - Thu Apr 07, 2022 07:04:32 PM >> NUBZRCOOL#4627 wanted info of NUBZRCOOL#4627, in guild 922897105587171348
+INFO - Thu Apr 07, 2022 09:05:12 PM >> received instruction to reconnect, will resume existing session
+ERROR - Thu Apr 07, 2022 10:21:07 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 07, 2022 10:21:07 PM >> failed to communicate with server, reason was: 'Cannot connect to host gateway.discord.gg:443 ssl:default [getaddrinfo failed]'. Will retry shortly
+INFO - Thu Apr 07, 2022 10:21:07 PM >> backing off reconnecting for 1.84s
+ERROR - Thu Apr 07, 2022 10:21:09 PM >> failed to communicate with server, reason was: 'Cannot connect to host gateway.discord.gg:443 ssl:default [getaddrinfo failed]'. Will retry shortly
+INFO - Thu Apr 07, 2022 10:21:09 PM >> backing off reconnecting for 2.72s
+ERROR - Thu Apr 07, 2022 10:21:47 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 07, 2022 11:02:22 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Fri Apr 08, 2022 02:46:21 AM >> received instruction to reconnect, will resume existing session
+INFO - Fri Apr 08, 2022 02:54:29 AM >> PVPKING#6431 asked NUBZBOT about his prefix, in guild 812365919010684969
+INFO - Fri Apr 08, 2022 02:54:41 AM >> PVPKING#6431 used help cmd: help in guild, 812365919010684969
+WARNING - Fri Apr 08, 2022 02:54:56 AM >> PVPKING#6431 tried using a cmd without valid auth, in guild 812365919010684969
+INFO - Fri Apr 08, 2022 04:17:06 AM >> received instruction to reconnect, will resume existing session
+ERROR - Fri Apr 08, 2022 05:44:31 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Fri Apr 08, 2022 07:32:03 AM >> received instruction to reconnect, will resume existing session
+ERROR - Fri Apr 08, 2022 07:43:21 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Fri Apr 08, 2022 08:00:40 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Fri Apr 08, 2022 08:05:41 AM >> PVPKING#6431 wanted info of PVPKING#6431, in guild 812365919010684969
+INFO - Fri Apr 08, 2022 09:13:07 AM >> NUBZRCOOL#4627 used help cmd: adminhelp, in guild 812365919010684969
+ERROR - Fri Apr 08, 2022 09:58:23 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Fri Apr 08, 2022 09:58:24 AM >> failed to communicate with server, reason was: 'Cannot connect to host gateway.discord.gg:443 ssl:default [getaddrinfo failed]'. Will retry shortly
+INFO - Fri Apr 08, 2022 09:58:24 AM >> backing off reconnecting for 1.83s
+ERROR - Fri Apr 08, 2022 09:58:26 AM >> failed to communicate with server, reason was: 'Cannot connect to host gateway.discord.gg:443 ssl:default [getaddrinfo failed]'. Will retry shortly
+INFO - Fri Apr 08, 2022 09:58:26 AM >> backing off reconnecting for 2.52s
+ERROR - Fri Apr 08, 2022 10:23:55 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Fri Apr 08, 2022 10:23:55 AM >> received invalid session, will need to start a new session
+INFO - Fri Apr 08, 2022 10:23:55 AM >> backing off reconnecting for 1.12s
+INFO - Fri Apr 08, 2022 10:23:57 AM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '93cb3ec670c0bcf2f738ea58d8d03c78' on v8 gateway
+INFO - Fri Apr 08, 2022 12:50:34 PM >> received instruction to reconnect, will resume existing session
+ERROR - Fri Apr 08, 2022 02:09:27 PM >> connection closed with code 1000 ()
+INFO - Fri Apr 08, 2022 02:09:27 PM >> server has closed connection, will reconnect if possible [code:1000, reason:]
+INFO - Fri Apr 08, 2022 02:09:28 PM >> received invalid session, will need to start a new session
+INFO - Fri Apr 08, 2022 02:09:28 PM >> backing off reconnecting for 1.27s
+INFO - Fri Apr 08, 2022 02:09:30 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '4759dbed4daeb2f50dbd853084148f6a' on v8 gateway
+ERROR - Fri Apr 08, 2022 02:10:07 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Fri Apr 08, 2022 02:15:37 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Fri Apr 08, 2022 02:15:37 PM >> failed to communicate with server, reason was: 'Cannot connect to host gateway.discord.gg:443 ssl:default [getaddrinfo failed]'. Will retry shortly
+INFO - Fri Apr 08, 2022 02:15:37 PM >> backing off reconnecting for 2.52s
+ERROR - Fri Apr 08, 2022 02:15:40 PM >> failed to communicate with server, reason was: 'Cannot connect to host gateway.discord.gg:443 ssl:default [getaddrinfo failed]'. Will retry shortly
+INFO - Fri Apr 08, 2022 02:15:40 PM >> backing off reconnecting for 3.54s
+ERROR - Fri Apr 08, 2022 02:16:19 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Fri Apr 08, 2022 05:21:50 PM >> received instruction to reconnect, will resume existing session
+INFO - Fri Apr 08, 2022 10:18:16 PM >> Extension loaded 'extensions.help'
+INFO - Fri Apr 08, 2022 10:18:16 PM >> Extension loaded 'extensions.misc'
+INFO - Fri Apr 08, 2022 10:18:16 PM >> Extension loaded 'extensions.moderation'
+INFO - Fri Apr 08, 2022 10:18:16 PM >> Bot started!
+INFO - Fri Apr 08, 2022 10:18:16 PM >> you can start 1000 sessions before the next window which starts at 2022-04-08 22:18:16.883785-07:00; planning to start 1 session... 
+INFO - Fri Apr 08, 2022 10:18:17 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '0e6d9ad0fb017ccf6047d74ae8d8f07e' on v8 gateway
+INFO - Fri Apr 08, 2022 10:18:17 PM >> Processing guild application commands
+INFO - Fri Apr 08, 2022 10:18:17 PM >> Processing global application commands
+INFO - Fri Apr 08, 2022 10:18:17 PM >> Application command processing completed
+INFO - Fri Apr 08, 2022 10:18:17 PM >> started successfully in approx 1.07 seconds
+INFO - Fri Apr 08, 2022 10:57:45 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 02:42:08 AM >> received instruction to reconnect, will resume existing session
+ERROR - Sat Apr 09, 2022 03:14:28 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sat Apr 09, 2022 05:15:43 AM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 08:42:41 AM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 10:41:11 AM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 12:27:10 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 02:15:49 PM >> received instruction to reconnect, will resume existing session
+ERROR - Sat Apr 09, 2022 02:59:10 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sat Apr 09, 2022 05:28:30 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 06:10:14 PM >> received instruction to reconnect, will resume existing session
+ERROR - Sat Apr 09, 2022 08:10:41 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Sat Apr 09, 2022 08:59:04 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sat Apr 09, 2022 09:55:48 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 09, 2022 10:17:24 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 10, 2022 12:09:56 AM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 10, 2022 01:49:43 AM >> received instruction to reconnect, will resume existing session
+ERROR - Sun Apr 10, 2022 03:34:45 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sun Apr 10, 2022 06:03:09 AM >> received instruction to reconnect, will resume existing session
+ERROR - Sun Apr 10, 2022 08:28:05 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sun Apr 10, 2022 11:07:46 AM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 10, 2022 11:26:39 AM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 10, 2022 02:56:35 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 10, 2022 04:37:15 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 10, 2022 08:06:25 PM >> received instruction to reconnect, will resume existing session
+ERROR - Sun Apr 10, 2022 08:41:21 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sun Apr 10, 2022 11:22:29 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 02:51:13 AM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 03:43:08 AM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 04:07:44 AM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 05:34:19 AM >> received instruction to reconnect, will resume existing session
+ERROR - Mon Apr 11, 2022 06:50:13 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Mon Apr 11, 2022 07:35:06 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Mon Apr 11, 2022 09:06:52 AM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 12:36:40 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 02:55:46 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 03:31:22 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 05:34:31 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 08:44:08 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 11, 2022 10:53:15 PM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 01:02:02 AM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 03:43:27 AM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 06:07:00 AM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 06:31:40 AM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 08:49:53 AM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 09:38:31 AM >> PVPKING#6431 used help cmd: help in guild, 817712191393628210
+WARNING - Tue Apr 12, 2022 09:38:49 AM >> PVPKING#6431 tried usig and unknown cmd, in guild 817712191393628210
+INFO - Tue Apr 12, 2022 09:39:14 AM >> PVPKING#6431 used help cmd: adminhelp, in guild 817712191393628210
+INFO - Tue Apr 12, 2022 09:39:59 AM >> PVPKING#6431 purged 6 messages in 817712191393628210
+INFO - Tue Apr 12, 2022 09:49:54 AM >> received instruction to reconnect, will resume existing session
+ERROR - Tue Apr 12, 2022 11:09:39 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Tue Apr 12, 2022 11:42:48 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Tue Apr 12, 2022 01:33:33 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Tue Apr 12, 2022 03:04:50 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Tue Apr 12, 2022 04:20:45 PM >> NUBZRCOOL#4627 used help cmd: adminhelp, in guild 922897105587171348
+ERROR - Tue Apr 12, 2022 04:36:08 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Tue Apr 12, 2022 07:22:12 PM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 12, 2022 10:56:50 PM >> received instruction to reconnect, will resume existing session
+INFO - Wed Apr 13, 2022 12:35:07 AM >> received instruction to reconnect, will resume existing session
+ERROR - Wed Apr 13, 2022 02:24:15 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 03:13:03 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 04:04:55 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 05:16:16 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 05:27:57 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 05:43:36 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 08:39:08 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Wed Apr 13, 2022 09:02:28 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Wed Apr 13, 2022 10:56:21 AM >> received instruction to reconnect, will resume existing session
+ERROR - Wed Apr 13, 2022 11:14:56 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Wed Apr 13, 2022 01:00:48 PM >> received instruction to reconnect, will resume existing session
+INFO - Wed Apr 13, 2022 01:49:16 PM >> received instruction to reconnect, will resume existing session
+ERROR - Wed Apr 13, 2022 02:48:05 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Wed Apr 13, 2022 05:44:11 PM >> received instruction to reconnect, will resume existing session
+INFO - Wed Apr 13, 2022 08:37:49 PM >> received instruction to reconnect, will resume existing session
+INFO - Wed Apr 13, 2022 08:43:25 PM >> zakiscool#1620 wanted info of zakiscool#1620, in guild 918990816914051102
+ERROR - Wed Apr 13, 2022 08:47:56 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Wed Apr 13, 2022 11:15:14 PM >> received instruction to reconnect, will resume existing session
+INFO - Thu Apr 14, 2022 12:33:12 AM >> received instruction to reconnect, will resume existing session
+ERROR - Thu Apr 14, 2022 01:54:21 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 14, 2022 04:00:03 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 14, 2022 04:43:24 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 14, 2022 07:32:06 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 14, 2022 07:59:11 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Thu Apr 14, 2022 08:34:33 AM >> received instruction to reconnect, will resume existing session
+ERROR - Thu Apr 14, 2022 08:46:48 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Thu Apr 14, 2022 09:14:45 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Thu Apr 14, 2022 10:06:20 AM >> received instruction to reconnect, will resume existing session
+INFO - Thu Apr 14, 2022 10:57:55 AM >> received instruction to reconnect, will resume existing session
+INFO - Thu Apr 14, 2022 11:40:22 AM >> received instruction to reconnect, will resume existing session
+ERROR - Thu Apr 14, 2022 12:10:01 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Thu Apr 14, 2022 01:16:51 PM >> received instruction to reconnect, will resume existing session
+INFO - Thu Apr 14, 2022 04:39:08 PM >> received instruction to reconnect, will resume existing session
+INFO - Thu Apr 14, 2022 07:01:13 PM >> received instruction to reconnect, will resume existing session
+ERROR - Thu Apr 14, 2022 08:26:30 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Fri Apr 15, 2022 02:00:05 PM >> Extension loaded 'extensions.help'
+INFO - Fri Apr 15, 2022 02:00:05 PM >> Extension loaded 'extensions.misc'
+INFO - Fri Apr 15, 2022 02:00:05 PM >> Extension loaded 'extensions.moderation'
+INFO - Fri Apr 15, 2022 02:00:05 PM >> Bot started!
+INFO - Fri Apr 15, 2022 02:00:05 PM >> you can start 1000 sessions before the next window which starts at 2022-04-15 14:00:05.543440-07:00; planning to start 1 session... 
+INFO - Fri Apr 15, 2022 02:00:05 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '2fcacc3645c123012ee62acae5157cc2' on v8 gateway
+INFO - Fri Apr 15, 2022 02:00:06 PM >> Processing guild application commands
+INFO - Fri Apr 15, 2022 02:00:06 PM >> Processing global application commands
+INFO - Fri Apr 15, 2022 02:00:06 PM >> Application command processing completed
+INFO - Fri Apr 15, 2022 02:00:06 PM >> started successfully in approx 0.99 seconds
+INFO - Fri Apr 15, 2022 04:40:07 PM >> received instruction to reconnect, will resume existing session
+ERROR - Fri Apr 15, 2022 05:00:35 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Sat Apr 16, 2022 12:56:30 AM >> connection closed with code 1000 ()
+INFO - Sat Apr 16, 2022 12:56:30 AM >> server has closed connection, will reconnect if possible [code:1000, reason:]
+INFO - Sat Apr 16, 2022 12:56:32 AM >> received invalid session, will need to start a new session
+INFO - Sat Apr 16, 2022 12:56:32 AM >> backing off reconnecting for 1.55s
+INFO - Sat Apr 16, 2022 12:56:34 AM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '6a83d2ba705530ab68533c103be1d85e' on v8 gateway
+INFO - Sat Apr 16, 2022 04:02:57 AM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 16, 2022 05:45:06 AM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 16, 2022 05:53:45 AM >> PVPKING#6431 used help cmd: adminhelp, in guild 817712191393628210
+INFO - Sat Apr 16, 2022 07:48:29 AM >> MVP cozbrozhimself#0297 asked NUBZBOT about his prefix, in guild 918990816914051102
+INFO - Sat Apr 16, 2022 08:18:59 AM >> received instruction to reconnect, will resume existing session
+ERROR - Sat Apr 16, 2022 08:47:53 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sat Apr 16, 2022 09:49:11 AM >> NUBZRCOOL#4627 asked NUBZBOT about his prefix, in guild 812365919010684969
+INFO - Sat Apr 16, 2022 10:45:10 AM >> PVPKING#6431 asked NUBZBOT about his prefix, in guild 812365919010684969
+INFO - Sat Apr 16, 2022 10:46:19 AM >> NUBZRCOOL#4627 wanted info of Legendz#1250, in guild 817712191393628210
+INFO - Sat Apr 16, 2022 10:52:54 AM >> NUBZRCOOL#4627 banned NUBZRALT#1608 from 922897105587171348 for:  get outa here, in guild 922897105587171348
+INFO - Sat Apr 16, 2022 11:13:56 AM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 16, 2022 01:31:16 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 16, 2022 02:45:24 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 16, 2022 03:40:54 PM >> received instruction to reconnect, will resume existing session
+ERROR - Sat Apr 16, 2022 05:05:38 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sat Apr 16, 2022 05:05:38 PM >> received invalid session, will need to start a new session
+INFO - Sat Apr 16, 2022 05:05:39 PM >> backing off reconnecting for 1.16s
+INFO - Sat Apr 16, 2022 05:05:40 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session 'c6ee0c7bb684b733ef8cbf97fe7782e2' on v8 gateway
+ERROR - Sat Apr 16, 2022 06:16:24 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sat Apr 16, 2022 06:16:24 PM >> received invalid session, will need to start a new session
+INFO - Sat Apr 16, 2022 06:16:24 PM >> backing off reconnecting for 1.73s
+INFO - Sat Apr 16, 2022 06:16:27 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '97196539c1ce9d1c2cfc9ca71431c324' on v8 gateway
+INFO - Sat Apr 16, 2022 06:43:55 PM >> received instruction to reconnect, will resume existing session
+INFO - Sat Apr 16, 2022 08:23:05 PM >> Extension loaded 'extensions.help'
+INFO - Sat Apr 16, 2022 08:23:05 PM >> Extension loaded 'extensions.misc'
+INFO - Sat Apr 16, 2022 08:23:05 PM >> Extension loaded 'extensions.moderation'
+INFO - Sat Apr 16, 2022 08:23:05 PM >> Bot started!
+INFO - Sat Apr 16, 2022 08:23:05 PM >> you can start 998 sessions before the next window which starts at 2022-04-17 17:05:40.837024-07:00; planning to start 1 session... 
+INFO - Sat Apr 16, 2022 08:23:06 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session 'fe7cdfc349b64740ec429669c67696e2' on v8 gateway
+INFO - Sat Apr 16, 2022 08:23:06 PM >> Processing guild application commands
+INFO - Sat Apr 16, 2022 08:23:06 PM >> Processing global application commands
+INFO - Sat Apr 16, 2022 08:23:06 PM >> Application command processing completed
+INFO - Sat Apr 16, 2022 08:23:06 PM >> started successfully in approx 1.07 seconds
+WARNING - Sat Apr 16, 2022 11:07:21 PM >> PVPKING#6431 tried usig and unknown cmd, in guild 812365919010684969
+INFO - Sat Apr 16, 2022 11:34:54 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 12:02:53 AM >> PVPKING#6431 asked NUBZBOT about his prefix, in guild 812365919010684969
+INFO - Sun Apr 17, 2022 12:03:08 AM >> PVPKING#6431 used help cmd: help in guild, 812365919010684969
+INFO - Sun Apr 17, 2022 12:03:22 AM >> PVPKING#6431 used help cmd: help in guild, 812365919010684969
+INFO - Sun Apr 17, 2022 01:53:31 AM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 02:44:35 AM >> PVPKING#6431 used help cmd: help in guild, 817712191393628210
+INFO - Sun Apr 17, 2022 02:44:50 AM >> PVPKING#6431 used help cmd: adminhelp, in guild 817712191393628210
+INFO - Sun Apr 17, 2022 05:21:18 AM >> received instruction to reconnect, will resume existing session
+ERROR - Sun Apr 17, 2022 05:39:01 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Sun Apr 17, 2022 08:41:44 AM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 10:07:24 AM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 10:24:56 AM >> PVPKING#6431 used help cmd: adminhelp, in guild 817712191393628210
+INFO - Sun Apr 17, 2022 12:27:38 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 12:52:32 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 01:49:01 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 04:34:44 PM >> received instruction to reconnect, will resume existing session
+INFO - Sun Apr 17, 2022 05:30:32 PM >> received instruction to reconnect, will resume existing session
+INFO - Mon Apr 18, 2022 07:29:18 PM >> Extension loaded 'extensions.help'
+INFO - Mon Apr 18, 2022 07:29:18 PM >> Extension loaded 'extensions.misc'
+INFO - Mon Apr 18, 2022 07:29:18 PM >> Extension loaded 'extensions.moderation'
+INFO - Mon Apr 18, 2022 07:29:18 PM >> Bot started!
+INFO - Mon Apr 18, 2022 07:29:18 PM >> you can start 1000 sessions before the next window which starts at 2022-04-18 19:29:18.816866-07:00; planning to start 1 session... 
+INFO - Mon Apr 18, 2022 07:29:19 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session 'b299322f137ebef768b6ccfdb459dc54' on v8 gateway
+INFO - Mon Apr 18, 2022 07:29:19 PM >> Processing guild application commands
+INFO - Mon Apr 18, 2022 07:29:19 PM >> Processing global application commands
+INFO - Mon Apr 18, 2022 07:29:19 PM >> Application command processing completed
+INFO - Mon Apr 18, 2022 07:29:19 PM >> started successfully in approx 1.08 seconds
+INFO - Mon Apr 18, 2022 07:44:55 PM >> received instruction to reconnect, will resume existing session
+ERROR - Mon Apr 18, 2022 09:02:42 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+ERROR - Tue Apr 19, 2022 07:16:04 AM >> connection closed with code 1000 ()
+INFO - Tue Apr 19, 2022 07:16:04 AM >> server has closed connection, will reconnect if possible [code:1000, reason:]
+INFO - Tue Apr 19, 2022 07:16:06 AM >> received invalid session, will need to start a new session
+INFO - Tue Apr 19, 2022 07:16:06 AM >> backing off reconnecting for 1.90s
+INFO - Tue Apr 19, 2022 07:16:08 AM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '6084b621c17231c936f215e186e39de5' on v8 gateway
+ERROR - Tue Apr 19, 2022 09:18:47 AM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
+INFO - Tue Apr 19, 2022 09:18:47 AM >> received invalid session, will need to start a new session
+INFO - Tue Apr 19, 2022 09:18:47 AM >> backing off reconnecting for 1.16s
+INFO - Tue Apr 19, 2022 09:18:49 AM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '68c1885fa4602475fbdbb13d9161f8af' on v8 gateway
+ERROR - Tue Apr 19, 2022 04:22:27 PM >> connection closed with code 1000 ()
+INFO - Tue Apr 19, 2022 04:22:27 PM >> server has closed connection, will reconnect if possible [code:1000, reason:]
+INFO - Tue Apr 19, 2022 04:22:28 PM >> received invalid session, will need to start a new session
+INFO - Tue Apr 19, 2022 04:22:28 PM >> backing off reconnecting for 1.60s
+INFO - Tue Apr 19, 2022 04:22:30 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '21eb08c59557b7aefcc1a7f5d8cc907b' on v8 gateway
+INFO - Tue Apr 19, 2022 04:48:54 PM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 19, 2022 06:28:33 PM >> received instruction to reconnect, will resume existing session
+INFO - Tue Apr 19, 2022 09:02:13 PM >> received instruction to reconnect, will resume existing session
+INFO - Wed Apr 20, 2022 04:15:26 PM >> Extension loaded 'extensions.help'
+INFO - Wed Apr 20, 2022 04:15:26 PM >> Extension loaded 'extensions.misc'
+INFO - Wed Apr 20, 2022 04:15:26 PM >> Extension loaded 'extensions.moderation'
+INFO - Wed Apr 20, 2022 04:15:26 PM >> Bot started!
+INFO - Wed Apr 20, 2022 04:15:26 PM >> you can start 1000 sessions before the next window which starts at 2022-04-20 16:15:26.859512-07:00; planning to start 1 session... 
+INFO - Wed Apr 20, 2022 04:15:27 PM >> shard is ready: 7 guilds, NUBZBOT#2714 (915053763818045452), session '0818ab5e70bd438ea1f9e787ece4dfd7' on v8 gateway
+INFO - Wed Apr 20, 2022 04:15:27 PM >> Processing guild application commands
+INFO - Wed Apr 20, 2022 04:15:27 PM >> Processing global application commands
+INFO - Wed Apr 20, 2022 04:15:27 PM >> Application command processing completed
+INFO - Wed Apr 20, 2022 04:15:27 PM >> started successfully in approx 1.16 seconds
+ERROR - Wed Apr 20, 2022 04:26:58 PM >> failed to communicate with server, reason was: 'Socket has closed'. Will retry shortly
