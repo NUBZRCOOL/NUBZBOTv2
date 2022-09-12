@@ -60,6 +60,18 @@ async def whois(ctx: lightbulb.Context) -> None:
     log(logging.INFO, f"{ctx.author} wanted info of {user}, in guild {ctx.guild_id}")
 
 
+@Plugin.command()
+@lightbulb.add_checks(lightbulb.owner_only)
+@lightbulb.option("user", "Targeted user", default=None, type=hikari.Member)
+@lightbulb.command("pingSomeone", "trololol")
+@lightbulb.implements(lightbulb.PrefixCommand)
+async def pingAll(ctx: lightbulb.Context) -> None:
+
+
+    user = ctx.options.user
+
+    await ctx.respond(user.mention)
+
 
 
 def load(Bot):

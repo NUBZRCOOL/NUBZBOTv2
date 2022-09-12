@@ -88,13 +88,13 @@ async def guild_join(guild):
 
         prefixes = json.load(prefix_file)
 
-    prefixes[str(guild.id)] = "nub!"
+    prefixes[str(guild.guild_id)] = "nub!"
 
     with open("..\\data\\prefixes.json", "w") as prefix_file:
 
         json.dump(prefixes, prefix_file, indent=4)
 
-    log(logging.INFO, f"Joined guild {guild}")
+    log(logging.INFO, f"Joined guild {guild.guild_id}")
 
 
 @Bot.listen(hikari.GuildLeaveEvent)
@@ -104,13 +104,13 @@ async def guild_leave(guild):
 
         prefixes = json.load(prefix_file)
 
-    prefixes.pop(str(guild.id))
+    prefixes.pop(str(guild.guild_id))
 
     with open("..\\data\\prefixes.json", "w") as prefix_file:
 
         json.dump(prefixes, prefix_file, indent=4)
 
-    log(logging.INFO, f"Left guild {guild}")
+    log(logging.INFO, f"Left guild {guild.guild_id}")
 
 
 @Bot.listen(hikari.StoppingEvent)
