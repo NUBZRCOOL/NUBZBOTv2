@@ -3,7 +3,6 @@ import lightbulb
 import os
 import logging
 import asyncio
-import time
 
 os.chdir(os.path.dirname(__file__) + "\\")
 

@@ -18,3 +18,5 @@ $RECYCLE.BIN/
 *.lnk
 
 NUBZBOTv2/log.txt
+venv
+.env
