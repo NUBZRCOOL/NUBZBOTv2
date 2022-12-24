@@ -1,16 +1,12 @@
 <style>
-
-    table, th, td {
-
-        border: 1px solid black;
-        margin: 10px;
-        border-collapse: collapse;
-    }
-    th, td {
-
-        padding: 10px;
-    }
-
+table, th, td {
+border: 1px solid black;
+margin: 10px;
+border-collapse: collapse;
+}
+th, td {
+padding: 10px;
+}
 </style>
 
 # NUBZBOT
