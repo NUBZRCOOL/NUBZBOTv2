@@ -18,5 +18,6 @@ $RECYCLE.BIN/
 *.lnk
 
 NUBZBOTv2/log.txt
-venv
-.env
+NUBZBOTv2/__pycache__/
+NUBZBOTv2/extensions/__pycache__/
+venv/
