@@ -6,7 +6,7 @@ import asyncio
 
 os.chdir(os.path.dirname(__file__) + "\\")
 
-logging.basicConfig(filename="log.txt", filemode="a", format="%(levelname)s - %(asctime)s >> %(message)s", level=logging.INFO, datefmt="%a %b %d, %Y %I:%M:%S %p")
+logging.basicConfig(filename="..\\log.txt", filemode="a", format="%(levelname)s - %(asctime)s >> %(message)s", level=logging.INFO, datefmt="%a %b %d, %Y %I:%M:%S %p")
 
 def log(level, msg):
 
