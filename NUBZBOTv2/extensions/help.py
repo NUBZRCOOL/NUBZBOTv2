@@ -46,7 +46,7 @@ async def what_is_my_prefix(message: hikari.Message) -> None:
 
 @Plugin.command()
 @lightbulb.command("help", "Shows all avaliable commands.")
-@lightbulb.implements(lightbulb.PrefixCommandGroup)
+@lightbulb.implements(lightbulb.SlashCommandGroup)
 async def help(ctx) -> None:
 
     embed = hikari.Embed(title="**NUBZBOT** - Help\n_", color=(0, 255, 0))
@@ -64,7 +64,7 @@ async def help(ctx) -> None:
 
 @help.child
 @lightbulb.command("help", "Gets info of `help` command.")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def help_sub(ctx):
 
     embed = hikari.Embed(title="**Help** >> Help\n_", color=(0, 255, 0))
@@ -80,7 +80,7 @@ async def help_sub(ctx):
 
 @help.child
 @lightbulb.command("whois", "Gets info of user")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def whois_sub(ctx):
 
     embed = hikari.Embed(title="Help >> Whois", color=(0, 255, 0))
@@ -98,7 +98,7 @@ async def whois_sub(ctx):
 @Plugin.command()
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("adminhelp", "Shows all admin commands.")
-@lightbulb.implements(lightbulb.PrefixCommandGroup)
+@lightbulb.implements(lightbulb.SlashCommandGroup)
 async def adminhelp(ctx) -> None:
 
     embed = hikari.Embed(title="**NUBZBOT** - AdminHelp\n_", color=(255, 0, 0))
@@ -124,7 +124,7 @@ async def adminhelp(ctx) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("adminhelp", "Gets info of `adminhelp` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def adminhelp_sub(ctx) -> None:
 
     embed = hikari.Embed(title="**AdminHelp** >> Adminhelp\n_", color=(255, 0, 0))
@@ -141,7 +141,7 @@ async def adminhelp_sub(ctx) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("changeprefix", "Gets info of `changeprefix` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def changeprefix_sub(ctx) -> None:
 
     embed = hikari.Embed(title="**AdminHelp** >> Changeprefix\n_", color=(255, 0, 0))
@@ -158,7 +158,7 @@ async def changeprefix_sub(ctx) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("ban", "Finds info of `ban` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def ban_sub(ctx) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Ban\n_", color=(255, 0, 0))
@@ -174,7 +174,7 @@ async def ban_sub(ctx) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("unban", "Finds info of `unban` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def unban_sub(ctx) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Unban\n_", color=(255, 0, 0))
@@ -190,7 +190,7 @@ async def unban_sub(ctx) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("kick", "Finds info of `kick` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def kick_sub(ctx) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Kick\n_", color=(255, 0, 0))
@@ -206,7 +206,7 @@ async def kick_sub(ctx) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("tempban", "Finds info of `tempban` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def tempban_sub(ctx: lightbulb.Context) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Tempban\n_", color=(255, 0, 0))
@@ -221,7 +221,7 @@ async def tempban_sub(ctx: lightbulb.Context) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("mute", "Finds info of `mute` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def mute_sub(ctx:  lightbulb.Context) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Mute\n_", color=(255, 0, 0))
@@ -236,7 +236,7 @@ async def mute_sub(ctx:  lightbulb.Context) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("unmute", "Finds info of `unmute` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def unmute_sub(ctx: lightbulb.Context) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Unmute\n_", color=(255, 0, 0))
@@ -251,7 +251,7 @@ async def unmute_sub(ctx: lightbulb.Context) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("tempmute", "Finds info of `tempmute` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def tepmute_sub(ctx: lightbulb.Context) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Tempmute\n_", color=(255, 0, 0))
@@ -266,7 +266,7 @@ async def tepmute_sub(ctx: lightbulb.Context) -> None:
 @adminhelp.child
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.command("purge", "Finds info of `purge` command")
-@lightbulb.implements(lightbulb.PrefixSubCommand)
+@lightbulb.implements(lightbulb.SlashSubCommand)
 async def purge_sub(ctx: lightbulb.Context) -> None:
 
     embed = hikari.Embed(title="**Adminhelp** >> Purge\n_", color=(255, 0, 0))

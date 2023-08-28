@@ -21,7 +21,7 @@ Plugin = lightbulb.Plugin("misc")
 @Plugin.command()
 @lightbulb.option("user", "Targeted user", default=None, type=hikari.Member)
 @lightbulb.command("whois", "Finds user information")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def whois(ctx: lightbulb.Context) -> None:
 
     user = ctx.options.user
@@ -67,7 +67,7 @@ async def whois(ctx: lightbulb.Context) -> None:
 @lightbulb.add_checks(lightbulb.owner_only)
 @lightbulb.option("user", "Targeted user", default=None, type=hikari.Member)
 @lightbulb.command("pingSomeone", "trololol")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def pingAll(ctx: lightbulb.Context) -> None:
 
 

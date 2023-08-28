@@ -54,7 +54,7 @@ Bot = lightbulb.BotApp(
 @Bot.command()
 @lightbulb.add_checks(lightbulb.owner_only)
 @lightbulb.command("test", "test")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def test(ctx: lightbulb.Context) -> None:
     
     members = await ctx.bot.rest.fetch_members(guild=ctx.get_guild())
@@ -122,7 +122,7 @@ async def bot_shutdown(event):
 @Bot.command()
 @lightbulb.add_checks(lightbulb.owner_only)
 @lightbulb.command("owner", "Are you my owner 0_0?.")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def owner(ctx) -> None:
 
     await ctx.respond(f"{ctx.author.mention} is my owner!")
@@ -131,7 +131,7 @@ async def owner(ctx) -> None:
 @Bot.command()
 @lightbulb.option("new_prefix", "New server prefix", str)
 @lightbulb.command("changeprefix", "Change server prefix.")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def changeprefix(ctx: lightbulb.Context) -> None:
 
     new_prefix = ctx.options.new_prefix

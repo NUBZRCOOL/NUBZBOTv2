@@ -25,7 +25,7 @@ Plugin = lightbulb.Plugin("moderation")
 @lightbulb.option(name="member", description="Member to ban", type=hikari.Member)
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.BAN_MEMBERS))
 @lightbulb.command("ban", "Permanently bans a member from the server")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def ban(ctx: lightbulb.Context) -> None:
 
     user, reason = ctx.options.member, ctx.options.reason
@@ -44,7 +44,7 @@ async def ban(ctx: lightbulb.Context) -> None:
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.BAN_MEMBERS))
 @lightbulb.option(name="member", description="Member to unban", type=hikari.User)
 @lightbulb.command("unban", "Unbans a member from the server")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def unban(ctx: lightbulb.Context) -> None:
 
     user = ctx.options.member
@@ -73,7 +73,7 @@ async def unban(ctx: lightbulb.Context) -> None:
 @lightbulb.option(name="member", description="Member to kick", type=hikari.Member)
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.KICK_MEMBERS))
 @lightbulb.command("kick", "Kicks a member from the server")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def kick(ctx: lightbulb.Context) -> None:
 
     user, reason = ctx.options.member, ctx.options.reason
@@ -95,7 +95,7 @@ async def kick(ctx: lightbulb.Context) -> None:
 @lightbulb.option(name="member", description="Member to kick", type=hikari.Member)
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.BAN_MEMBERS))
 @lightbulb.command("tempban", "Temporarily bans a member from a server")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def tempban(ctx: lightbulb.Context) -> None:
 
     user = ctx.options.member
@@ -138,7 +138,7 @@ async def tempban(ctx: lightbulb.Context) -> None:
 @lightbulb.option(name="member", description="User to mute", type=hikari.Member)
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MUTE_MEMBERS))
 @lightbulb.command("mute", "Mutes a member")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def clear(ctx: lightbulb.Context) -> None:
 
     user, reason = ctx.options.member, ctx.options.reason
@@ -180,7 +180,7 @@ async def clear(ctx: lightbulb.Context) -> None:
 @lightbulb.option(name="member", description="User to unmute", type=hikari.Member)
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MUTE_MEMBERS))
 @lightbulb.command("unmute", "Unmutes a member")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def unmute(ctx: lightbulb.Context):
 
     user = ctx.options.member
@@ -205,7 +205,7 @@ async def unmute(ctx: lightbulb.Context):
 @lightbulb.option(name="timeInterval", description="Interval for the time", type=int)
 @lightbulb.option(name="member", description="Member to kick", type=hikari.Member)
 @lightbulb.command("tempmute", "Temporarily mutes a user")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def tempmute(ctx: lightbulb.Context) -> None:
     
     user = ctx.options.member
@@ -273,7 +273,7 @@ async def tempmute(ctx: lightbulb.Context) -> None:
 @lightbulb.add_checks(lightbulb.has_guild_permissions(hikari.Permissions.MANAGE_MESSAGES))
 @lightbulb.option(name="Amount", description="Amount of messages to delete", type=int, default=6)
 @lightbulb.command("purge", "Deletes amount of messages")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def purge(ctx: lightbulb.Context) -> None:
 
     amount = ctx.options.Amount
