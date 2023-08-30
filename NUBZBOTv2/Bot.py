@@ -18,47 +18,21 @@ def log(level, msg):
     if level == logging.CRITICAL: logging.critical(msg)
 
 
-def getPrefix(Bot, message) -> str:
-
-    with open("..\\data\\prefixes.json", "r") as prefix_file:
-
-        prefixes = json.load(prefix_file)
-    try:
-
-        return prefixes[str(message.guild_id)]
-
-    except Exception:
-        guildID = message.guild_id
-
-        with open("..\\data\\prefixes.json", "r") as prefix_file:
-
-            prefixes = json.load(prefix_file)
-
-        prefixes[str(guildID)] = "nub!"
-
-        with open("..\\data\\prefixes.json", "w") as prefix_file:
-
-            json.dump(prefixes, prefix_file, indent=4)
-
-        return prefixes[str(guildID)]
-
-
 Bot = lightbulb.BotApp(
     token=TOKEN,
-    prefix=getPrefix,
     intents=hikari.Intents.ALL,
     help_class=None,
 )
 
 
-@Bot.command()
-@lightbulb.add_checks(lightbulb.owner_only)
-@lightbulb.command("test", "test")
-@lightbulb.implements(lightbulb.PrefixCommand)
-async def test(ctx: lightbulb.Context) -> None:
+# @Bot.command()
+# @lightbulb.add_checks(lightbulb.owner_only)
+# @lightbulb.command("test", "test")
+# @lightbulb.implements(lightbulb.PrefixCommand)
+# async def test(ctx: lightbulb.Context) -> None:
     
-    members = await ctx.bot.rest.fetch_members(guild=ctx.get_guild())
-    print(members)
+#     members = await ctx.bot.rest.fetch_members(guild=ctx.get_guild())
+#     print(members)
 
 
 @Bot.listen(lightbulb.CommandErrorEvent)
@@ -84,31 +58,11 @@ async def command_error(event: lightbulb.CommandErrorEvent) -> None:
 @Bot.listen(hikari.GuildJoinEvent)
 async def guild_join(guild):
 
-    with open("..\\data\\prefixes.json", "r") as prefix_file:
-
-        prefixes = json.load(prefix_file)
-
-    prefixes[str(guild.guild_id)] = "nub!"
-
-    with open("..\\data\\prefixes.json", "w") as prefix_file:
-
-        json.dump(prefixes, prefix_file, indent=4)
-
     log(logging.INFO, f"Joined guild {guild.guild_id}")
 
 
 @Bot.listen(hikari.GuildLeaveEvent)
 async def guild_leave(guild):
-
-    with open("..\\data\\prefixes.json", "r") as prefix_file:
-
-        prefixes = json.load(prefix_file)
-
-    prefixes.pop(str(guild.guild_id))
-
-    with open("..\\data\\prefixes.json", "w") as prefix_file:
-
-        json.dump(prefixes, prefix_file, indent=4)
 
     log(logging.INFO, f"Left guild {guild.guild_id}")
 
@@ -122,33 +76,10 @@ async def bot_shutdown(event):
 @Bot.command()
 @lightbulb.add_checks(lightbulb.owner_only)
 @lightbulb.command("owner", "Are you my owner 0_0?.")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def owner(ctx) -> None:
 
     await ctx.respond(f"{ctx.author.mention} is my owner!")
-
-
-@Bot.command()
-@lightbulb.option("new_prefix", "New server prefix", str)
-@lightbulb.command("changeprefix", "Change server prefix.")
-@lightbulb.implements(lightbulb.PrefixCommand)
-async def changeprefix(ctx: lightbulb.Context) -> None:
-
-    new_prefix = ctx.options.new_prefix
-
-    with open("..\\data\\prefixes.json", "r") as prefix_file:
-
-        prefixes = json.load(prefix_file)
-
-    prefixes[str(ctx.guild_id)] = new_prefix
-
-    with open("..\\data\\prefixes.json", "w") as prefix_file:
-
-        json.dump(prefixes, prefix_file, indent=4)
-
-    await ctx.respond(f"New Bot prefix: {new_prefix}")
-
-    log(logging.INFO, f"{ctx.author} changed server prefix on guild {ctx.guild_id} to {new_prefix}")
 
 
 def run() -> None:

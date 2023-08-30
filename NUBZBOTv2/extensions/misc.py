@@ -21,7 +21,7 @@ Plugin = lightbulb.Plugin("misc")
 @Plugin.command()
 @lightbulb.option("user", "Targeted user", default=None, type=hikari.Member)
 @lightbulb.command("whois", "Finds user information")
-@lightbulb.implements(lightbulb.PrefixCommand)
+@lightbulb.implements(lightbulb.SlashCommand)
 async def whois(ctx: lightbulb.Context) -> None:
 
     user = ctx.options.user
@@ -63,17 +63,17 @@ async def whois(ctx: lightbulb.Context) -> None:
     log(logging.INFO, f"{ctx.author} wanted info of {user}, in guild {ctx.guild_id}")
 
 
-@Plugin.command()
-@lightbulb.add_checks(lightbulb.owner_only)
-@lightbulb.option("user", "Targeted user", default=None, type=hikari.Member)
-@lightbulb.command("pingSomeone", "trololol")
-@lightbulb.implements(lightbulb.PrefixCommand)
-async def pingAll(ctx: lightbulb.Context) -> None:
+# @Plugin.command()
+# @lightbulb.add_checks(lightbulb.owner_only)
+# @lightbulb.option("user", "Targeted user", default=None, type=hikari.Member)
+# @lightbulb.command("pingSomeone", "trololol")
+# @lightbulb.implements(lightbulb.PrefixCommand)
+# async def pingAll(ctx: lightbulb.Context) -> None:
 
 
-    user = ctx.options.user
+#     user = ctx.options.user
 
-    await ctx.respond(user.mention)
+#     await ctx.respond(user.mention)
 
 
 
