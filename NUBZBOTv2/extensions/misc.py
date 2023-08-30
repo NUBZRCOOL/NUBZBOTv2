@@ -2,6 +2,7 @@ import hikari
 import lightbulb
 import os
 import logging
+import datetime
 
 os.chdir(os.path.dirname(__file__) + "\\")
 
@@ -46,7 +47,7 @@ async def whois(ctx: lightbulb.Context) -> None:
         top_role = user.get_top_role().mention
 
 
-    embed = hikari.Embed(title=f"Info - {user}", timestamp=ctx.event.message.created_at, color=user.get_top_role().color)
+    embed = hikari.Embed(title=f"Info - {user}", timestamp=datetime.datetime.now(tz=datetime.timezone.utc), color=user.get_top_role().color)
     embed.set_footer(text=f"Requested by {ctx.author}", icon=ctx.author.avatar_url)
     embed.set_thumbnail(user.avatar_url)
 
