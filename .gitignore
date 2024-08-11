@@ -14,10 +14,18 @@ $RECYCLE.BIN/
 *.msix
 *.msm
 *.msp
+*.cfg
 
 *.lnk
 
+Procfile
 NUBZBOTv2/log.txt
 *.pyc
 __pycache__/
+NUBZBOTv2/__pycache__/
+NUBZBOTv2/extensions/__pycache__/
 venv/
+Scripts/
+.env
+Lib/
+Include/

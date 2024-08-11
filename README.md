@@ -1,8 +1,8 @@
 # NUBZBOT
 
 This is the second version. The first version is not on GitHub.
-
-This code was made in Windows, so if you want to use it on a different OS, you'll have to edit the part of the code that changes the CWD to match your OS's file system.
+<!-- 
+This code was made in Windows, so if you want to use it on a different OS, you'll have to edit the part of the code that changes the CWD to match your OS's file system. -->
 
 <br>
 
@@ -11,7 +11,7 @@ This code was made in Windows, so if you want to use it on a different OS, you'l
 1. I recommend installing a virtual environment into the directory. So set one up.
 1. Install the libraries onto the virtual environment by using the command: ```pip install -r requirements.txt```. Note that if you are not on Windows, you should also install ```uvloop```.
 
-<br>
+<!-- <br>
 
 ### **Fixing file paths**
 
@@ -37,9 +37,9 @@ This code was made in Windows, so if you want to use it on a different OS, you'l
 </tr>
 </table>
 
-<br>
+<br> -->
 
 ### **Running the bot**
 
-1. If you are not on Windows, the '```.env```' file probably did not show up. This is why you need to create it. Name the new file '```env```' (no file extension) and put in it: ```TOKEN = {your bot token here}```
-1. Then just run ```python ./NUBZBOTv2/__main__.py```
+<!-- 1. If you are not on Windows, the '```.env```' file probably did not show up. This is why you need to create it. Name the new file '```env```' (no file extension) and put in it: ```TOKEN = place bot token here``` -->
+1. Run ```python ./NUBZBOTv2/__main__.py```

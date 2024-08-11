@@ -1,20 +1,11 @@
 import hikari
 import lightbulb
 import os
+from os.path import dirname, abspath
 import logging
 import datetime
 
-os.chdir(os.path.dirname(__file__) + "\\")
-
-logging.basicConfig(filename="..\\log.txt", filemode="a", format="%(levelname)s - %(asctime)s >> %(message)s", level=logging.INFO, datefmt="%a %b %d, %Y %I:%M:%S %p")
-
-def log(level, msg):
-
-    if level == logging.DEBUG: logging.debug(msg)
-    if level == logging.INFO: logging.info(msg)
-    if level == logging.WARNING: logging.warn(msg)
-    if level == logging.ERROR: logging.error(msg)
-    if level == logging.CRITICAL: logging.critical(msg)
+os.chdir(dirname(abspath(__file__)))
 
 
 Plugin = lightbulb.Plugin("misc")
@@ -61,7 +52,7 @@ async def whois(ctx: lightbulb.Context) -> None:
 
     await ctx.respond(embed=embed)
 
-    log(logging.INFO, f"{ctx.author} wanted info of {user}, in guild {ctx.guild_id}")
+    logging.info(f"{ctx.author} wanted info of {user} in guild {ctx.guild_id}")
 
 
 # @Plugin.command()

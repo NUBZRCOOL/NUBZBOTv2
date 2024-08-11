@@ -1,21 +1,11 @@
 import hikari
 import lightbulb
 import os
-import json
+from os.path import dirname, abspath
 from __init__ import *
-import logging
+from logSetup import logger
 
-os.chdir(os.path.dirname(__file__) + "\\")
-
-logging.basicConfig(filename="..\\log.txt", filemode="a", format="%(levelname)s - %(asctime)s >> %(message)s", level=logging.INFO, datefmt="%a %b %d, %Y %I:%M:%S %p")
-
-def log(level, msg):
-
-    if level == logging.DEBUG: logging.debug(msg)
-    if level == logging.INFO: logging.info(msg)
-    if level == logging.WARNING: logging.warn(msg)
-    if level == logging.ERROR: logging.error(msg)
-    if level == logging.CRITICAL: logging.critical(msg)
+os.chdir(dirname(abspath(__file__)))
 
 
 Bot = lightbulb.BotApp(
@@ -23,7 +13,6 @@ Bot = lightbulb.BotApp(
     intents=hikari.Intents.ALL,
     help_class=None,
 )
-
 
 # @Bot.command()
 # @lightbulb.add_checks(lightbulb.owner_only)
@@ -40,37 +29,41 @@ async def command_error(event: lightbulb.CommandErrorEvent) -> None:
 
     if isinstance(event.exception, lightbulb.CommandNotFound):
         await event.context.respond(f"Oh Noes! There is no command like that!")
-        log(logging.WARNING, f"{event.context.author} tried usig and unknown cmd, in guild {event.context.guild_id}")
+        logger.warning(f"{event.context.author} tried usig and unknown cmd, in guild {event.context.guild_id}")
 
     if isinstance(event.exception, lightbulb.MissingRequiredPermission):
         await event.context.respond("Invalid permissions!")
-        log(logging.WARNING, f"{event.context.author} tried using a cmd without valid auth, in guild {event.context.guild_id}")
+        logger.warning(f"{event.context.author} tried using a cmd without valid auth, in guild {event.context.guild}")
 
     if isinstance(event.exception, lightbulb.NotOwner):
         await event.context.respond("ur not the owner of this bot lol. You can't use this command!")
-        log(logging.WARNING, f"{event.context.author}, ur not the owner lol, in guild {event.context.guild_id}")
+        logger.warning(f"{event.context.author}, ur not the owner of this bot lol, in guild {event.context.guild_id}")
 
     if isinstance(event.exception, lightbulb.NotEnoughArguments):
         await  event.context.respond("Invalid arguments.")
-        log(logging.WARNING, f"{event.context.author} didn't use enough args in a cmd, in guild {event.context.guild_id}")
+        logger.warning(f"{event.context.author} didn't use enough args in a cmd, in guild {event.context.guild_id}")
 
+@Bot.listen(hikari.StartingEvent)
+async def starting(event):
+    
+    logger.info("Starting Bot")
 
 @Bot.listen(hikari.GuildJoinEvent)
 async def guild_join(guild):
 
-    log(logging.INFO, f"Joined guild {guild.guild_id}")
+    logger.info(f"Joined guild {guild.guild_id}")
 
 
 @Bot.listen(hikari.GuildLeaveEvent)
 async def guild_leave(guild):
 
-    log(logging.INFO, f"Left guild {guild.guild_id}")
+    logger.info(f"Left guild {guild.guild_id}")
 
 
 @Bot.listen(hikari.StoppingEvent)
 async def bot_shutdown(event):
 
-    log(logging.INFO, f"Bot shutdown")
+    logger.info("Bot shutdown")
 
 
 @Bot.command()
@@ -92,6 +85,6 @@ def run() -> None:
         if file[:1] != "_":
             Bot.load_extensions(f"extensions.{file[:-3]}")
 
-    log(logging.INFO, "Bot started!")
+    logger.info("Bot started!")
 
     Bot.run()
